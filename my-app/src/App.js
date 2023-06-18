@@ -14,6 +14,7 @@ function App() {
     <div className="App">
         <Mensaje/>
         <Description color='blue' message = 'Usando parametros y reutilizando el componente'/>
+        
     </div>
   );
 }
