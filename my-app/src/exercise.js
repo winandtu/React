@@ -46,11 +46,11 @@ const Header = (props) => {
 }
 
 const Content = (props) => {
-    return <p>{props.part} {props.exercises}</p>;
+    return <p>- {props.part}: {props.exercises}</p>;
 }
 
 const Total = (props) => {
-   return <p>{props.total}</p>
+   return <p>- Total: {props.total}</p>
 }
 
 const Ejercicio = () => {
